@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="form-group">
+    <div class="col-md-6">
+      <div class="form-group-md">
+        <div class="panel panel-primary" style="border-color: black">
+          <div class="panel-heading" style="border-color: black">
+            <strong>Contactanos!</strong>
+          </div>
+          <div class="panel-body padding">
+            <form class="form-horizontal" [formGroup]="formContacto">
+              <div class="form-group">
+                <label class="control-label col-md-2">Nombre:</label>
+                <div class="col-md-5">
+                  <input type="text" formControlName="firstName" class="form-control-plaintext input-md" placeholder="Nombre">
+                  <p *ngIf="!formContacto.controls.firstName.valid && formContacto.controls.firstName.touched" class="alert alert-danger">Campo Obligatorio!</p>
+                </div>
+                <div class="col-md-5">
+                  <input type="text" formControlName="lastName" class="form-control-plaintext input-md " placeholder="Apellido">
+                  <p *ngIf="!formContacto.controls.lastName.valid && formContacto.controls.lastName.touched" class="alert alert-danger">Campo Obligatorio!</p>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-md-2">Correo:</label>
+                <div class="col-md-10">
+                  <input type="text" formControlName="mail" class="form-control-plaintext input-md" placeholder="Nombre">
+                  <p *ngIf="!formContacto.controls.mail.valid && formContacto.controls.mail.touched" class="alert alert-danger">Campo Obligatorio!</p>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea" class="control-label col-md-2">Mensaje:</label>
+                <div class="col-md-10">
+                  <textarea class="form-control" formControlName="message" rows="4" placeholder="Mensaje"></textarea>
+                  <p *ngIf="!formContacto.controls.message.valid && formContacto.controls.message.touched" class="alert alert-danger">Campo Obligatorio!</p>
+                </div>
+              </div>
+              <div class="form-group">
+                <button type="button" class="btn btn-primary btn-lg btn-block" style="border-color: black; background-color: #E0B027;">Enviar</button>
+              </div> 
+            </form>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="card text-white bg-dark mb-3" >
+            <div class="card-header">Domicilio</div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">Pancho Reatas</h4> -->
+              <address class="card-text">
+                Calle: Orquidea No 106.<br>
+                Colonia: Club Jardin.<br>
+                Estado: México.<br>
+               <abbr title="Código Postal">C.P.</abbr>: 50010<br>
+               <abbr title="Telefono">Tel</abbr>:7226582536
+              </address>
+              <address>
+                <strong>Correo Electronico</strong><br>
+                <a href="mailto:panchoreatas@gmail.com  ">panchoreatas@gmail.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6" style="width: 50%; height: 30%;">
+      <div id="map" class="google-map">
+      </div>
+    </div>
+  </div>
+</div>

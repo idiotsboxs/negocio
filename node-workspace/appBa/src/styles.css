@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+#iconFacecolor {
+    color:#E0B027;
+ }
+ 
+ #iconTwitter {
+     color:#E0B027;
+ }
+#icoInstagram {
+    color:#E0B027;
+}
+.panel-primary > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #E0B027 0%, #E0B027 100%);
+    background-image:      -o-linear-gradient(top, #E0B027 0%, #E0B027 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E0B027), to(#E0B027));
+    background-image:         linear-gradient(to bottom, #E0B027 0%, #E0B027 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffE0B027', endColorstr='#ffE0B027', GradientType=0);
+    background-repeat: repeat-x;
+  }
+  .panel-primary {
+    border-color: #101111;
+  }
+  .panel-primary > .panel-heading { 
+    color: #fff;
+    background-color: #E0B027;
+    border-color: #101111;
+  }
+  .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #101111;
+  }
+  .panel-primary > .panel-heading .badge {
+    color: #E0B027;
+    background-color: #fff;
+  }
+  .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #E0B027;
+  }
+body {
+
+
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /* Location of the image */
+    /* background-image: url(assets/image/ladrilloBK.jpg); */
+    
+    /* Background image is centered vertically and horizontally at all times */
+    /* background-position: center center; */
+    
+    /* Background image doesn't tile */
+    /* background-repeat: no-repeat; */
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    /* background-attachment: fixed; */
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    /* background-size: cover; */
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    /* background-color: #f8f6f6; */
+  }
+  .interior-font {
+    font-family: 'Libre Baskerville';font-size: 22px;
+}
+
+.interior-font-regular {
+    font-family: 'Libre Baskerville';font-size: 22px; font-style: italic;
+}
+#map {
+    height: 561px;
+}
