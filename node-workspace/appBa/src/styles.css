@@ -1,20 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 #iconFacecolor {
-    color:#E0B027;
+    color:#DB9752;
  }
  
  #iconTwitter {
-     color:#E0B027;
+     color:#DB9752;
  }
 #icoInstagram {
-    color:#E0B027;
+    color:#DB9752;
 }
 .panel-primary > .panel-heading {
-    background-image: -webkit-linear-gradient(top, #E0B027 0%, #E0B027 100%);
-    background-image:      -o-linear-gradient(top, #E0B027 0%, #E0B027 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#E0B027), to(#E0B027));
-    background-image:         linear-gradient(to bottom, #E0B027 0%, #E0B027 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffE0B027', endColorstr='#ffE0B027', GradientType=0);
+    background-image: -webkit-linear-gradient(top, #DB9752 0%, #DB9752 100%);
+    background-image:      -o-linear-gradient(top, #DB9752 0%, #DB9752 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#DB9752), to(#DB9752));
+    background-image:         linear-gradient(to bottom, #DB9752 0%, #DB9752 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffDB9752', endColorstr='#ffDB9752', GradientType=0);
     background-repeat: repeat-x;
   }
   .panel-primary {
@@ -22,18 +22,18 @@
   }
   .panel-primary > .panel-heading { 
     color: #fff;
-    background-color: #E0B027;
+    background-color: #DB9752;
     border-color: #101111;
   }
   .panel-primary > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #101111;
   }
   .panel-primary > .panel-heading .badge {
-    color: #E0B027;
+    color: #DB9752;
     background-color: #fff;
   }
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #E0B027;
+    border-bottom-color: #DB9752;
   }
 body {
 
