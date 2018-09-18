@@ -1,0 +1,8 @@
+.bg{
+
+    color: white;background: url('/assets/image/publi_01.jpeg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+
+}
+.shadow{
+text-shadow: rgb(17, 21, 23) 2px 0px 0px, rgb(17, 21, 23) 1px 0px 0px, rgb(17, 21, 23) 1px 1px 0px, rgb(17, 21, 23) 0px 2px 0px, rgb(17, 21, 23) 0px 1px 0px, rgb(17, 21, 23) -1px 1px 0px, rgb(17, 21, 23) -1px 0px 0px, rgb(17, 21, 23) -1px 0px 0px, rgb(17, 21, 23) -1px -1px 0px, rgb(17, 21, 23) 0px -1px 0px, rgb(17, 21, 23) 0px -1px 0px, rgb(17, 21, 23) 1px -1px 0px, rgb(17, 21, 23) 1px 0px 0px;
+}
